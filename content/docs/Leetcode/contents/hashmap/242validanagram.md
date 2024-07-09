@@ -7,7 +7,7 @@ tags:
   - hashmap
   - array
 ---
-# Solving LeetCode: Valid Anagram
+# Leetcode 242: Valid Anagram
 
 In this post, we will discuss how to solve the popular LeetCode problem: "Valid Anagram". This problem requires us to determine if two given strings are anagrams of each other. Two strings are anagrams if they contain the same characters with the same frequencies.
 
