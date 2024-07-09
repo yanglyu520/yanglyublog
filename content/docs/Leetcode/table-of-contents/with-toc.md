@@ -1,5 +1,5 @@
 ---
-title: content list
+title: List of questions
 weight: 1
 ---
 # Caput vino delphine in tamen vias
