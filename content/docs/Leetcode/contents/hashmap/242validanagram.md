@@ -21,7 +21,9 @@ We can use a hashmap to count the number of each smallcase letter frequency, and
 - note: it is all smallercase 
 - note: use an array slice to count frequency
 
-An illustration might help to explain this better, refer to ![here](static/242.png)
+An illustration might help to explain this better, refer to 
+
+![here](./static/242.png)
 
 ### Implementation in Go
 
