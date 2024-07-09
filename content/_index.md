@@ -5,14 +5,14 @@ type: docs
 # Hi, there
 ## What is this blog for?
 
-This blog is a platform where I intend to share my knowledge and insights on various topics, including:
+This blog is a platform where I intend to share my insights on various topics, including:
 - **Golang**: Tips, best practices, and in-depth tutorials on Golang web development.
 - **LeetCode**: Solutions and explanations for algorithm challenges.
 - **Computer Science Basics**: Fundamental concepts every developer should know.
 - **Containers and Kubernetes**: Comprehensive guides on containerization and orchestration with Kubernetes.
 - **AWS Technologies**: Tutorials and use cases for leveraging AWS in cloud solutions.
 
-I aim to build a rich resource that can help both beginners and experienced developers enhance their skills and stay updated with the latest trends in the industry.
+Note: I am still in the progress of building the website, and it is only 5% of the progress. 
 
 {{< columns >}}
 ## Who am I?
