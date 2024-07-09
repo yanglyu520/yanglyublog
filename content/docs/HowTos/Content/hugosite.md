@@ -3,9 +3,6 @@ author: "Yang Lyu"
 date: 2024-05-28
 title: Quick tutorial on blog web with hugo and netlify
 weight: 10
-tags:
-  - golang
-  - fmt
 ---
 
 # How to Create a Blog with Hugo and Deploy on Netlify
