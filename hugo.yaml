@@ -1,3 +1,4 @@
-baseURL: https://yanglyu520.github.io/
+baseURL: https://yanglyublog.netlify.app/
 languageCode: en-us
 title: My New Hugo Site
+theme: hugo-book
