@@ -17,17 +17,11 @@ Given two strings `s` and `t`, write a function `isAnagram(s string, t string) b
 
 ## Approach to Solve the Problem
 
-To solve this problem efficiently, we can use a frequency counting technique. The idea is to count the occurrences of each character in both strings and then compare these counts.
+We can use a hashmap to count the number of each smallcase letter frequency, and then compare with the second string
+- note: it is all smallercase 
+- note: use an array slice to count frequency
 
-### Steps to Think of the Solution
-
-1. **Initialize a Frequency Counter**: Since the problem deals with lowercase English letters, we can use an array of size 26 (for each letter in the alphabet) to keep track of character frequencies.
-
-2. **Count Characters in the First String**: Iterate over the first string and increment the corresponding index in our frequency counter array for each character.
-
-3. **Count Characters in the Second String**: Iterate over the second string and decrement the corresponding index in the frequency counter array for each character.
-
-4. **Compare Frequencies**: If both strings are anagrams, the frequency counter array should contain only zeros at the end. If any index in the array is not zero, the strings are not anagrams.
+An illustration might help to explain this better, refer to ![here](static/242.png)
 
 ### Implementation in Go
 
