@@ -61,7 +61,7 @@ Sets are useful in scenarios where you need to maintain a collection of unique e
 - Checking for membership.
 - Performing set operations like union, intersection, and difference.
 
-### Solution Example for LeetCode 349: Intersection of Two Arrays
+### 5. Solution Example for LeetCode 349: Intersection of Two Arrays
 
 Here's an example of how to use sets to solve LeetCode problem 349, which requires finding the intersection of two arrays:
 
@@ -94,7 +94,7 @@ func intersection(nums1 []int, nums2 []int) (intersection []int) {
 3. **Optimize Search**: Swap sets if `set1` is larger than `set2` to minimize the number of lookups.
 4. **Find Intersection**: Iterate through the smaller set and check if each element is present in the larger set. If it is, add it to the intersection result.
 
-### Template for finding intersections between 2 sets
+### 6. Template for finding intersections between 2 sets
 
 ```go
 if len(set1) > len(set2) {
