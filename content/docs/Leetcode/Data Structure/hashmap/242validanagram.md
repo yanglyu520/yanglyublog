@@ -23,7 +23,7 @@ We can use a hashmap to count the number of each smallcase letter frequency, and
 
 An illustration might help to explain this better, refer to 
 
-![here](./static/242.png)
+![here](/242.png)
 
 ### Implementation in Go
 
