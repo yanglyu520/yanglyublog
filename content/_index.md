@@ -2,40 +2,35 @@
 title: Introduction
 type: docs
 ---
+# Hi, there
+## What is this blog for?
 
-# Acerbo datus maxime
+This blog is a platform where I intend to share my knowledge and insights on various topics, including:
+- **Golang**: Tips, best practices, and in-depth tutorials on Golang web development.
+- **LeetCode**: Solutions and explanations for algorithm challenges.
+- **Computer Science Basics**: Fundamental concepts every developer should know.
+- **Containers and Kubernetes**: Comprehensive guides on containerization and orchestration with Kubernetes.
+- **AWS Technologies**: Tutorials and use cases for leveraging AWS in cloud solutions.
+
+I aim to build a rich resource that can help both beginners and experienced developers enhance their skills and stay updated with the latest trends in the industry.
 
 {{< columns >}}
-## Astris ipse furtiva
+## Who am I?
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+I am a passionate Golang developer with a focus on building web APIs using cutting-edge cloud technologies. 
 
 <--->
 
-## Suis quot vota
+## My favourite quotes
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+> "When you are still, the world surrenders." - Lao Tzu
+
 {{< /columns >}}
 
 
-## Tempora nisi nunc
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
 
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
+## Contact me
 
-## Locis suis novi cum suoque decidit eadem
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/yang-lyu/) for any queries, collaboration opportunities, or just to connect.
 
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
