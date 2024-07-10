@@ -3,7 +3,6 @@ title: Introduction
 type: docs
 ---
 # Hi, there
-## What is this blog for?
 
 This blog is a platform where I intend to share my insights on various topics, including:
 - **Golang**: Tips, best practices, and in-depth tutorials on Golang web development.
