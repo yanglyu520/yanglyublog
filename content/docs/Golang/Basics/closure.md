@@ -122,26 +122,4 @@ In web API development, closures are invaluable for creating middleware and hand
     }
     ```
 
-2. **Handler with Configuration**:
-    ```go
-    package main
-
-    import (
-        "fmt"
-        "net/http"
-    )
-
-    func createHandler(message string) http.HandlerFunc {
-        return func(w http.ResponseWriter, r *http.Request) {
-            fmt.Fprintf(w, message)
-        }
-    }
-
-    func main() {
-        http.HandleFunc("/hello", createHandler("Hello, World!"))
-        http.HandleFunc("/goodbye", createHandler("Goodbye, World!"))
-        http.ListenAndServe(":8080", nil)
-    }
-    ```
-
 Closures in Go enable powerful and flexible code patterns. By capturing and preserving variables, closures facilitate complex operations such as maintaining state across function calls, implementing custom behavior, and enhancing modularity and reusability in web applications. Understanding and leveraging closures can significantly improve the efficiency and readability of your Go programs.
