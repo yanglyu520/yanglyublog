@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: `new` vs `make`
+title: new vs make
 weight: 10
 tags:
   - golang
