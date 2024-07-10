@@ -11,7 +11,7 @@ tags:
 
 ## Introduction
 
-In Go, an empty struct `struct{}` can be puzzling. This article explores the empty struct's properties and uses. An empty struct has zero memory allocation, identical addresses for multiple instances, and statelessness.
+An empty struct has zero memory allocation, same memory addresses for multiple instances, and stateless.
 
 ## Zero Memory Allocation
 
@@ -29,7 +29,7 @@ func main() {
 }
 ```
 
-## Identical Addresses
+## Same Memory Addresses
 
 Multiple empty structs share the same address:
 
@@ -48,8 +48,8 @@ func main() {
 1. **Set Implementation:**
 
 ```go
-type Set[K comparable] map[K]struct{}
-func (s Set[K]) Add(val K) { s[val] = struct{}{} }
+set := make(map[int]struct{})
+set[1] = struct{}{}
 ```
 
 2. **Channel Signals:**
@@ -66,8 +66,7 @@ go func() {
 3. **Method Receivers:**
 
 ```go
-type Person interface { SayHello() }
-type CMY struct{}
-func (c CMY) SayHello() { fmt.Println("Hello, I'm Chen Mingyong.") }
+type R struct{}
+func (r *R) SayHello() { fmt.Println("Hello") }
 ```
 

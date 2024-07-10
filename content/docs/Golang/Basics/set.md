@@ -1,12 +1,12 @@
 ---
 author: "Yang Lyu"
 date: 2024-05-28
-title: How to implement set using hashmap in golang?
+title: How to implement set using Greedy in golang?
 weight: 10
 tags:
   - golang
   - set
-  - hashmap
+  - Greedy
 ---
 # How to Implement Set Using HashMap in Golang
 
