@@ -1,6 +1,6 @@
 ---
 author: "Yang Lyu"
-date: 2024-07-11
+date: 2024-07-10
 title: Variadic Parameters and Argument Unpacking in Go
 weight: 10
 tags:
@@ -40,14 +40,13 @@ result := sum(1, 2, 3, 4) // result will be 10
 
 3. **Accessing Arguments**: Inside the function, the variadic parameter can be used like a regular slice. You can iterate over it, access its length, and manipulate it just like any other slice.
 
-## The conversion of variadic arguments to a slice in Go is done at runtime, not during compilation. 
-Here's a more detailed explanation:
+## The conversion of variadic arguments to a slice in Go is done at runtime, not during compilation.
 When a variadic function is called with a series of arguments, the Go runtime performs the following steps:
 
-**1. Argument Collection**: The individual arguments passed to the variadic parameter are collected.
-**2. Slice Creation**: A new slice is created to hold these arguments.
-**3. Element Copying**: Each argument is copied into the newly created slice.
-**4. Function Call**: The function is called with the slice containing the variadic arguments.
+1. **Argument Collection**: The individual arguments passed to the variadic parameter are collected.
+2. **Slice Creation**: A new slice is created to hold these arguments.
+3. **Element Copying**: Each argument is copied into the newly created slice.
+4. **Function Call**: The function is called with the slice containing the variadic arguments.
 
 This process ensures that the function can handle an arbitrary number of arguments by treating them as a slice internally.
 
