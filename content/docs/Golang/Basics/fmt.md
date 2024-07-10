@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-05-28
-title: How to use golang fmt package?
+title: fmt package
 weight: 10
 tags:
   - golang

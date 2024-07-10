@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-10
-title: Variadic Parameters and Argument Unpacking in Go
+title: Variadic Parameters
 weight: 10
 tags:
   - golang

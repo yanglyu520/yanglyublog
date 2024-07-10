@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Go Empty Struct
+title: Empty Struct
 weight: 10
 tags:
    - golang

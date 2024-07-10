@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Understanding Closure Functions in Go
+title: Closure Functions
 weight: 10
 tags:
    - golang
