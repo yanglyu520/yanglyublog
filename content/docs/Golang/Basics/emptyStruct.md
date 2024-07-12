@@ -35,11 +35,13 @@ Multiple empty structs share the same address:
 
 ```go
 package main
+
 import "fmt"
+
 func main() {
-    var e, e2 struct{}
-    fmt.Printf("%p", &e)  // Output: 0x90b418
-    fmt.Printf("%p", &e2) // Output: 0x90b418
+	var e, e2 struct{}
+	fmt.Printf("%p\n", &e) 
+	fmt.Printf("%p", &e2)  
 }
 ```
 
@@ -55,12 +57,21 @@ set[1] = struct{}{}
 2. **Channel Signals:**
 
 ```go
-quit := make(chan struct{})
-go func() {
-    time.Sleep(3 * time.Second)
-    close(quit)
-}()
-<-quit
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	sig := make(chan struct{})
+	go func() {
+		fmt.Println("go1")
+		close(sig)
+	}()
+	<-sig
+	fmt.Println("go-main")
+}
 ```
 
 3. **Method Receivers:**
