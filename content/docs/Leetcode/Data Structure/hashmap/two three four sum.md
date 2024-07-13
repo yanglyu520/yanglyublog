@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Leetcode 454 four sum && Leetcode 15 three sum && 
+title: Leetcode 454 four sum && Leetcode 15 three sum && 18 four sum to new target
 weight: 10
 tags:
   - hashmap
@@ -52,3 +52,7 @@ func fourSumCount(nums1 []int, nums2 []int, nums3 []int, nums4 []int) int {
     return sum
 }
 ```
+
+### Leetcode 15 three sum
+
+### Leetcode 18 four sum to new target
