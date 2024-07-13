@@ -13,20 +13,14 @@ This blog is a platform where I intend to share my insights on various topics, i
 
 Note: I am still in the progress of building the website, and it is only 5% of the progress. 
 
-{{< columns >}}
 ## Who am I?
 
 I am a passionate Golang developer with a focus on building web APIs using cutting-edge cloud technologies. 
 
-<--->
 
 ## My favourite quotes
 
 > "When you are still, the world surrenders." - Lao Tzu
-
-{{< /columns >}}
-
-
 
 
 ## Contact me
