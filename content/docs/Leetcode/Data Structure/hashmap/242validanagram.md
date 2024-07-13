@@ -4,8 +4,7 @@ date: 2024-07-09
 title: Leetcode 242 Valid Anagram
 weight: 10
 tags:
-  - Greedy
-  - array
+  - hashmap
 ---
 # Leetcode 242: Valid Anagram
 
