@@ -1,3 +1,3 @@
 # yanglyublog
 
-visit my blog website [here](https://yanglyublog.netlify.app)
+Please visit my blog website [here](https://yanglyublog.com)
