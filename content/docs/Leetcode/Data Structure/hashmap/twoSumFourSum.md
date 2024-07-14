@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Leetcode 454 four sum && Leetcode 15 three sum && 18 four sum to new target
+title: Leetcode 1 Two sum and Leetcode 454 four sum
 weight: 10
 tags:
   - hashmap
@@ -82,56 +82,3 @@ func fourSumCount(nums1 []int, nums2 []int, nums3 []int, nums4 []int) int {
     return sum
 }
 ```
-
-### Leetcode 15 three sum
-[Diagram](/15.png) to help understand it better. The key challenge here is to remove duplicates in results
-1. Why not use hashmap solution as two sums?
-   - Hashmap Approach: 
-   - Using a hashmap requires careful handling of pairs and checking for duplicates.
-   - The logic can become complex and harder to follow.
-   
-2. Time and space complexity for two pointers solution?
-- **Time Complexity**: \( O(n^2) \)
-    - Sorting the array takes \( O(n \log n) \).
-    - The two-pointer technique runs in \( O(n^2) \).
-    - The overall time complexity is dominated by \( O(n^2) \).
-
-- **Space Complexity**: \( O(1) \)
-    - The sorting step and the two-pointer technique use only a constant amount of extra space.
-    - The output space is not considered in the space complexity calculation.
-
-The sorting step and the two-pointer technique use only a constant amount of extra space.
-The output space is not considered in the space complexity calculation.
-```go
-func threeSum(nums []int) [][]int {
-  sort.Ints(nums)
-  n := len(nums)
-  res := [][]int{}
-
-  for i:=0;i<n-2;i++{
-    if nums[i]>0{break}
-    if i>0 && nums[i]==nums[i-1]{continue}
-    left,right:=i+1,n-1
-    for left<right {
-      sum := nums[i]+nums[left]+nums[right]
-      if sum==0{
-        res=append(res, []int{nums[i], nums[left],nums[right]})
-        for left<right && nums[left]==nums[left+1]{
-                left++
-            }
-        for left<right && nums[right]==nums[right-1]{
-                right--
-            }
-        left++
-        right--    
-        }else if sum < 0 {
-            left++
-        }else {
-            right--
-        }
-    }
-  }
-  return res
-}
-```
-### Leetcode 18 four sum to new target
