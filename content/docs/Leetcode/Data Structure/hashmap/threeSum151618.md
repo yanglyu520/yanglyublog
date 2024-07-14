@@ -11,7 +11,7 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 
 Notice that the solution set must not contain duplicate triplets.
 
-<img alt="here" src="/15.png"/>
+![here](/15.png)
 to help understand it better. The key challenge here is to remove duplicates in results
 1. Why not use hashmap solution as two sums?
     - Hashmap Approach:
@@ -72,7 +72,8 @@ You may assume that each input would have exactly one solution.
 
 - Answer:
     - very similar to above thinking patterns, but much easier
-Diagram is ![here](/18.png)
+Diagram is 
+![here](/18.png)
 ```go
 func threeSumClosest(nums []int, target int) int {
     // Sort the array
