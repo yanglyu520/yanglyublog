@@ -22,7 +22,7 @@ We can use a hashmap to count the number of each smallcase letter frequency, and
 
 An illustration might help to explain this better, refer to 
 
-![here](/242.png)
+![here](https://github.com/yanglyu520/yanglyublog/blob/main/content/docs/Leetcode/Data%20Structure/hashmap/242.png?raw=true)
 
 ### Implementation in Go
 
