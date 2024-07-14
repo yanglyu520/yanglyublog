@@ -1,7 +1,7 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Leetcode 1 Two sum and Leetcode 454 four sum
+title: Leetcode 1 Two sum, Leetcode 454 four sum
 weight: 10
 tags:
   - hashmap
