@@ -1,15 +1,17 @@
 ---
 author: "Yang Lyu"
 date: 2024-07-09
-title: Leetcode 15 Three Sum, Leetcode 16 3Sum Closest
+title: Leetcode 15 Three Sum, Leetcode 16 3Sum Closest, Leetcode 18 four sum
 weight: 10
 tags:
   - hashmap
 ---
+## Leetcode 15 three sum
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
-### Leetcode 15 three sum
+Notice that the solution set must not contain duplicate triplets.
 
-[Diagram](/15.png) to help understand it better. The key challenge here is to remove duplicates in results
+![here](/15.png) to help understand it better. The key challenge here is to remove duplicates in results
 1. Why not use hashmap solution as two sums?
     - Hashmap Approach:
     - Using a hashmap requires careful handling of pairs and checking for duplicates.
@@ -69,6 +71,7 @@ You may assume that each input would have exactly one solution.
 
 - Answer:
     - very similar to above thinking patterns, but much easier
+Diagram is ![here](/18.png)
 ```go
 func threeSumClosest(nums []int, target int) int {
     // Sort the array
@@ -107,5 +110,52 @@ func abs(x int) int {
         return -x
     }
     return x
+}
+```
+
+## Leetcode 18 Four sum
+Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
+
+0 <= a, b, c, d < n
+a, b, c, and d are distinct.
+nums[a] + nums[b] + nums[c] + nums[d] == target
+You may return the answer in any order.
+
+diagram here for easier understanding
+
+- Answer:
+    - very similar to above thinking patterns, and just adding another loop
+```go
+func fourSum(nums []int, target int) [][]int {
+    sort.Ints(nums)
+    n := len(nums)
+    ans := [][]int{}
+    if n<4{return nil}
+    for k:=0;k<n-3;k++{
+        if k>0&&nums[k]==nums[k-1]{continue}
+        for i:=k+1;i<n-2;i++{
+            if i>k+1&&nums[i]==nums[i-1]{continue}
+            left,right:=i+1,n-1
+            for left < right{
+                sum := nums[k]+nums[i]+nums[left]+nums[right]
+                if sum==target{
+                    ans=append(ans,[]int{nums[k],nums[i],nums[left],nums[right]})
+                    for left<right && nums[left]==nums[left+1]{
+                        left++
+                    }
+                    for left<right && nums[right]==nums[right-1]{
+                        right--
+                    }
+                    left++
+                    right--
+                }else if sum>target{
+                    right--
+                }else{
+                    left++
+                }
+            }
+        }
+    }   
+    return ans 
 }
 ```
