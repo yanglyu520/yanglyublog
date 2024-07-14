@@ -11,7 +11,7 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 
 Notice that the solution set must not contain duplicate triplets.
 
-![here](/15.png)
+![here](https://github.com/yanglyu520/yanglyublog/blob/9ae2fcefd9f3845b989ddd0568fc7bc15b1416cc/content/docs/Leetcode/Data%20Structure/hashmap/15.png)
 to help understand it better. The key challenge here is to remove duplicates in results
 1. Why not use hashmap solution as two sums?
     - Hashmap Approach:
@@ -73,7 +73,7 @@ You may assume that each input would have exactly one solution.
 - Answer:
     - very similar to above thinking patterns, but much easier
 Diagram is 
-![here](/18.png)
+![here](https://github.com/yanglyu520/yanglyublog/blob/026b9220e68cf81a5de594f7f2f42afd596020e1/content/docs/Leetcode/Data%20Structure/hashmap/18.png)
 ```go
 func threeSumClosest(nums []int, target int) int {
     // Sort the array
