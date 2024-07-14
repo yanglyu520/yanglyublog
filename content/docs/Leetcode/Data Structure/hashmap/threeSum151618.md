@@ -11,7 +11,8 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 
 Notice that the solution set must not contain duplicate triplets.
 
-![here](content/docs/Leetcode/Data Structure/hashmap/15.png) to help understand it better. The key challenge here is to remove duplicates in results
+<img alt="here" src="/15.png"/>
+to help understand it better. The key challenge here is to remove duplicates in results
 1. Why not use hashmap solution as two sums?
     - Hashmap Approach:
     - Using a hashmap requires careful handling of pairs and checking for duplicates.
