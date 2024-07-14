@@ -1,6 +1,6 @@
 ---
 title: Introduction
-type: docs
+type: post
 ---
 # Hi, there
 
@@ -18,12 +18,12 @@ Note: I am still in the progress of building the website, and it is only 5% of t
 I am a passionate Golang developer with a focus on building web APIs using cutting-edge cloud technologies. 
 
 
-## My favourite quotes
+## My favourite quote
 
-> "When you are still, the world surrenders." - Lao Tzu
+> "When the mind is still, the world surrenders." - Lao Tzu
 
 
 ## Contact me
 
-Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/yang-lyu/) for any queries, collaboration opportunities, or just to connect.
+Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/yang-lyu/) for any queries, or just to connect.
 
