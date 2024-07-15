@@ -43,6 +43,15 @@ tags:
     * Memory is allocated on demand and can be reallocated when the slice grows.
 
 3. Why static types are good?
+   Early Error Detection:
+
+Errors and type mismatches are caught at compile-time rather than at runtime, reducing the chances of bugs in production and improving code reliability.
+Enhanced Code Readability and Maintainability:
+
+Explicit type declarations make the code easier to read and understand, allowing developers to quickly grasp the types of variables and function returns, which simplifies maintenance and collaboration.
+Optimized Performance:
+
+Compilers can optimize code more effectively when types are known at compile-time, leading to potential performance improvements due to better resource management and allocation.
 
 4. What are 2 types of string literals in Golang and what are the differences?
 In Go, there are two types of string literals: interpreted string literals and raw string literals.
