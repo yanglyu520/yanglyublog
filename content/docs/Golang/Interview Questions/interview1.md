@@ -31,7 +31,7 @@ tags:
    - Focus on Backend: Go is primarily used for backend services and systems programming, with limited support for frontend or desktop UI development.
 
 2. Difference between slice and array in Golang?
- 
+{{</* expand "Custom Label" "..." */>}}
 - Array:
     * fixed size at compile time, and cannot be resized
     * memory is allocated at the time of declaration
@@ -41,19 +41,24 @@ tags:
     * consist of a pointer to the array, length, and capacity
     * Slices are reference types, meaning that multiple slices can refer to the same underlying array.
     * Memory is allocated on demand and can be reallocated when the slice grows.
+{{</* /expand */>}}
 
 3. Why static types are good?
-   Early Error Detection:
 
-Errors and type mismatches are caught at compile-time rather than at runtime, reducing the chances of bugs in production and improving code reliability.
+{{</* expand "Custom Label" "..." */>}}
+Early Error Detection:
+
+* Errors and type mismatches are caught at compile-time rather than at runtime, reducing the chances of bugs in production and improving code reliability.
 Enhanced Code Readability and Maintainability:
 
-Explicit type declarations make the code easier to read and understand, allowing developers to quickly grasp the types of variables and function returns, which simplifies maintenance and collaboration.
+* Explicit type declarations make the code easier to read and understand, allowing developers to quickly grasp the types of variables and function returns, which simplifies maintenance and collaboration.
 Optimized Performance:
 
-Compilers can optimize code more effectively when types are known at compile-time, leading to potential performance improvements due to better resource management and allocation.
+* Compilers can optimize code more effectively when types are known at compile-time, leading to potential performance improvements due to better resource management and allocation.
+{{</* /expand */>}}
 
 4. What are 2 types of string literals in Golang and what are the differences?
+{{</* expand "Custom Label" "..." */>}}
 In Go, there are two types of string literals: interpreted string literals and raw string literals.
 * Interpreted String Literals:
 Enclosed in double quotes `""`.
@@ -63,9 +68,9 @@ Example: "Hello\nWorld" results in a string with a newline between "Hello" and "
 Enclosed in backticks \`.
 - Special characters are not interpreted, and the string can span multiple lines.
 - Example: a :=\`Hello\nWorld\` results in a string with the literal text "Hello\nWorld", including the backslash and 'n' as part of the string.
-
+  {{</* /expand */>}}
 7. What is the time complexity of merge sort?
-
+   {{</* expand "Custom Label" "..." */>}}
 Time Complexity:
 - Best Case: O(nlogn)
 - Average Case: O(nlogn)
@@ -122,7 +127,11 @@ func merge(left, right []int) []int {
     return result
 }
 ```
+{{</* /expand */>}}
+
 7. What basic and composite types do we have in Golang?
+
+{{</* expand "Custom Label" "..." */>}}
 * Basic Types:
     - Boolean: bool
     - Numeric: int, uint, float32, float64, complex64, complex128, etc.
@@ -137,6 +146,7 @@ func merge(left, right []int) []int {
     - Map
     - Channel
     - Interface
+{{</* /expand */>}}
 
 9. What design principles can you use if you were to design an app like `What's app`?
 
